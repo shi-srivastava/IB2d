@@ -9,9 +9,10 @@ function Fm = give_Muscle_Activation(v,LF,LFO,SK,a,b,Fmax,current_time,xPt,xLag)
 % current_time: current time in simulation (s)
 % xLag: vector of all x-Lagrangian Pts
 
-% Fm = a_f * Fmax * F1(Lf) * F2(Vf) 
-%    = a_f * Fmax *exp( -( (Q-1)/SK )^2 ) * (1/P0)*(b*P0-a*v)/(v+b); Q = LF/LFO
-%
+Fm = a_f * Fmax * F1(Lf) * F2(Vf) 
+Fm = a_f * Fmax *exp( -( (Q-1)/SK )^2 ) * (1/P0)*(b*P0-a*v)/(v+b); 
+Q = LF/LFO
+
 
 % a_f: coefficient that triggers contraction (traveling square or Gaussian wave?)
 
