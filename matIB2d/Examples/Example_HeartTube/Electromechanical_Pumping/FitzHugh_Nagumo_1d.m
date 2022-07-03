@@ -139,7 +139,7 @@ v_INTERP = compute_IBM_Potential_At_IBM_Lag_Pts(factor,numPtsAlongTube,vStore);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % FUNCTION: computes the electro-potential, v(x,t), at the correct points
-% along the IBM's Lagrangian Structure
+% along the IBM Lagrangian Structure
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
